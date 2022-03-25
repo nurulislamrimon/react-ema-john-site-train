@@ -25,6 +25,7 @@
     bottom: 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    cursor: pointer;
 }
 .product-container button:hover{
     background-color: orange;
@@ -49,4 +50,11 @@
 }
 .product-container button p{
     margin-right: 10px;
+}
+.right-section{
+    background-color: aquamarine;
+}
+.right-section .carted-items{
+    position: sticky;
+    top: 0;
 }
